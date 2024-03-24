@@ -7,7 +7,7 @@ public class MainInOrder {
 
     public static void main(String[] args) {
         ArrayList<Integer> path = new ArrayList<>();
-        inOrderWalk(BinaryTree.getRoot(), path);
+        inOrderWalk(BinaryTree.getRootOfBinaryTree(), path);
         path.forEach(System.out::println);
     }
 

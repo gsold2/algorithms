@@ -7,7 +7,7 @@ public class MainPreOrder {
 
     public static void main(String[] args) {
         ArrayList<Integer> path = new ArrayList<>();
-        preOrderWalk(BinaryTree.getRoot(), path);
+        preOrderWalk(BinaryTree.getRootOfBinaryTree(), path);
         path.forEach(System.out::println);
     }
 

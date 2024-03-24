@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class MainBFSBinaryTree {
     public static void main(String[] args) {
-        Node<Integer> root = BinaryTree.getRoot();
+        Node<Integer> root = BinaryTree.getRootOfBinaryTree();
         bfs(root);
     }
 

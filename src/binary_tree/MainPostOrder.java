@@ -7,7 +7,7 @@ public class MainPostOrder {
 
     public static void main(String[] args) {
         ArrayList<Integer> path = new ArrayList<>();
-        postOrderWalk(BinaryTree.getRoot(), path);
+        postOrderWalk(BinaryTree.getRootOfBinaryTree(), path);
         path.forEach(System.out::println);
     }
 
