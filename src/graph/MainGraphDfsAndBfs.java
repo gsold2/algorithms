@@ -68,7 +68,7 @@ public class MainGraphDfsAndBfs {
         return false;
     }
 
-    private static void printPath(int[] path, int sourceVertex, int destinationVertex) {
+    public static void printPath(int[] path, int sourceVertex, int destinationVertex) {
         List<Integer> listOfVertexes = new ArrayList<>();
         listOfVertexes.add(destinationVertex);
         int index = destinationVertex;
